@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="org.ergode.ErgodeTizenBridge" version="1.0.0" api-version="7.0" xmlns="http://tizen.org/ns/packages">
+    <profile name="common" />
+    <service-application appid="org.ergode.ErgodeTizenBridge" exec="ErgodeTizenBridge.dll" multiple="false" nodisplay="true" taskmanage="false" api-version="10" type="dotnet">
+        <label>ErgodeTizenBridge</label>
+        <icon>ergo-logo-orange.png</icon>
+        <splash-screens />
+    </service-application>
+    <shortcut-list />
+    <privileges>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+    </privileges>
+    <dependencies />
+    <provides-appdefined-privileges />
+</manifest>

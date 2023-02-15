@@ -1,0 +1,9 @@
+# csproj file path
+csproj_file: ErgodeTizenBridge.csproj
+
+# files monitored for dirty/modified status
+files:
+  - ErgodeTizenBridge.csproj
+  - ErgodeTizenBridge_App.cs
+  - tizen-manifest.xml
+  - shared/res/ErgodeTizenBridge.png

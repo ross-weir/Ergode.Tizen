@@ -1,0 +1,23 @@
+auto_gen_build_files: true
+project_type: web_app
+output_name: ErgodeTizenUI
+trust_anchor: []
+files:
+  - images/icon.png
+  - index.html
+  - dist/app.bundle.js
+excludes:
+  - .build/*
+  - .buildResult/*
+  - .csproj
+  - .externalToolBuilders/*
+  - .package/*
+  - .project
+  - .rds_delta
+  - .sdk_delta.info
+  - .settings/*
+  - .sign/*
+  - .tizen-ui-builder-tool.xml
+  - .tproject
+  - .wgt
+  - webUnitTest/*

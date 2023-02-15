@@ -1,0 +1,5 @@
+debug.log
+obj
+bin
+node_modules
+dist

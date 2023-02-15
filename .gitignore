@@ -1,0 +1,7 @@
+.vs
+.gn
+build
+debug
+bin
+obj
+debug.log

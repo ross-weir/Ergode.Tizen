@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErgodeTizenBridge", "ErgodeTizenBridge\ErgodeTizenBridge.csproj", "{4F95363F-D868-45E5-A2E0-F1A5BE4BDC4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7754BE8B-C02F-4212-B5C9-8346BD5DE0E9}"
+	ProjectSection(SolutionItems) = preProject
+		tizen_workspace.yaml = tizen_workspace.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ergode.Bridge", "..\Ergode.Bridge\src\Ergode.Bridge\Ergode.Bridge.csproj", "{F6D873BA-5690-4654-A23E-01DCFC80B131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErgodeTizenUI", "ErgodeTizenUI\ErgodeTizenUI.csproj", "{92A7893E-7010-482D-AD1F-16A90BA81402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F95363F-D868-45E5-A2E0-F1A5BE4BDC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F95363F-D868-45E5-A2E0-F1A5BE4BDC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F95363F-D868-45E5-A2E0-F1A5BE4BDC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F95363F-D868-45E5-A2E0-F1A5BE4BDC4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D873BA-5690-4654-A23E-01DCFC80B131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D873BA-5690-4654-A23E-01DCFC80B131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A7893E-7010-482D-AD1F-16A90BA81402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A7893E-7010-482D-AD1F-16A90BA81402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A7893E-7010-482D-AD1F-16A90BA81402}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{92A7893E-7010-482D-AD1F-16A90BA81402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A7893E-7010-482D-AD1F-16A90BA81402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A7893E-7010-482D-AD1F-16A90BA81402}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DECBECA7-D856-469C-B68D-7801E2015D70}
+	EndGlobalSection
+EndGlobal
