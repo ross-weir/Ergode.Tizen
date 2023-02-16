@@ -6,4 +6,3 @@ files:
   - ErgodeTizenBridge.csproj
   - ErgodeTizenBridge_App.cs
   - tizen-manifest.xml
-  - shared/res/ErgodeTizenBridge.png

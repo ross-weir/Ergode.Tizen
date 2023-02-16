@@ -1,21 +1,22 @@
 import React from "react";
 import { Suspense } from "react";
-import { MantineProvider, Text, Header } from "@mantine/core";
-import { Button } from "@mantine/core";
+import { MantineProvider } from "@mantine/core";
+import { ErgodeProvider } from "./hooks";
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
-    <React.StrictMode>
-      <Suspense fallback="loading">
-        <MantineProvider withNormalizeCSS withGlobalStyles>
-          <Text weight={500} size="lg">
-            Hello world!
-          </Text>
-          <Button>Click me!</Button>
-          <Header height={500}>Testing again</Header>
+    <Suspense fallback="loading">
+      <ErgodeProvider>
+        <MantineProvider
+          theme={{ colorScheme: "dark" }}
+          withNormalizeCSS
+          withGlobalStyles
+        >
+          <Dashboard />
         </MantineProvider>
-      </Suspense>
-    </React.StrictMode>
+      </ErgodeProvider>
+    </Suspense>
   );
 }
 
